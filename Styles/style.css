@@ -462,3 +462,22 @@ hr{
 .container .box .body .content div h3{
   letter-spacing: 1px;
 }
+
+.proj{
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.card-text{
+  color: #fff;
+}
+
+.card{
+  margin-left: 3%;
+  background-color: #242424;
+  margin-bottom: 5%;
+}
+
+.card-img-top{
+  height: 110px;
+}
