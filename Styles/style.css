@@ -481,3 +481,111 @@ hr{
 .card-img-top{
   height: 110px;
 }
+
+@media screen and (min-width:459px) and (max-width:700px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops
+  */
+  .admin{
+    display: none;
+  }
+  .col-3{
+    display: none;
+  }
+  .col-9{
+    width:100%;
+  }
+  .navbar{
+    border: #fff;
+  }
+  .profile{
+
+    width: 305px;
+  }
+  .back{
+    width: 100%;
+  }
+  .navbar-toggler{
+    color: #fff !important;
+    background-color: #fff;
+  }
+
+  .text-box h5{
+    display: inline;
+    margin-left: 1%;
+  }
+
+  .text-box p{
+    
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  #Contact{
+    width: auto;
+
+  }
+
+  
+}
+
+@media screen and (min-width:299px) and (max-width:459px) {
+  body{
+    width: auto;
+  }
+
+  .text-box h5{
+    display: inline;
+    margin-left: 1%;
+  }
+
+  .text-box p{
+    
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+
+  .profile{
+    display: inline;
+    align-items: center;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-left: -5%;
+  }
+  .back{
+    display: none;
+  }
+  .col-3{
+    display: none;
+  }
+  .nav{
+    width: 100%;
+  }
+  .col-9{
+    width: 100%;
+  }
+  .navbar-toggler{
+    color: #fff !important;
+    background-color: #fff;
+  }
+  .nav .navbar navbar-expand-lg bg-body-tertiary.container-fluid .navbar-toggler{
+    margin-left: 80% !important;
+  }
+  .R row .col-4{
+    width: 100%;
+
+  }
+  .col-4{
+    width: 100%;
+  }
+  .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+  #Contact{
+    width: auto;
+
+  }
+}
